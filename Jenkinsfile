@@ -3,7 +3,7 @@ pipeline {
 
     parameters{
         string defaultValue: 'cypress/e2e/test/**', description: 'Enter the Spec name', name: 'Spec', trim: true
-        choice choices: ['Chrome', 'Edge', 'FIrefox'], description: 'Enter the browser you want the scripts to run', name: 'Browser'
+        choice choices: ['chrome', 'edge', 'firefox'], description: 'Enter the browser you want the scripts to run', name: 'Browser'
     }
 
     options{
